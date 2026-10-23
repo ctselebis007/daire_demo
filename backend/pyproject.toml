@@ -1,0 +1,23 @@
+[project]
+name = "dare-mdb"
+version = "0.1.0"
+description = "DARE multi-tenant AI recommendation platform on MongoDB Atlas (POC)"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pymongo>=4.13",
+    "httpx>=0.27",
+    "openai>=1.50",
+    "jsonschema>=4.23",
+    "jinja2>=3.1",
+    "faker>=30.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.24"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]

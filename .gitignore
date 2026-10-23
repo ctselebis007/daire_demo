@@ -1,0 +1,8 @@
+.dare/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+.DS_Store
