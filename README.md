@@ -1,4 +1,4 @@
-# DARE on MongoDB Atlas (POC)
+# DAIRE on MongoDB Atlas (POC)
 
 A multi-tenant AI recommendation platform built on MongoDB Atlas. Retrieval uses Atlas Vector Search and Atlas Search together with `$rankFusion`. Embeddings and reranking come from Voyage AI through `ai.mongodb.com`, and OpenAI writes the explanations.
 
