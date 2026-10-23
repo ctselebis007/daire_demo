@@ -1,6 +1,6 @@
 # DARE on MongoDB Atlas (POC)
 
-A multi-tenant AI recommendation platform built on MongoDB Atlas. Retrieval uses Atlas Vector Search and Atlas Search together with `$rankFusion`. Embeddings and reranking come from Voyage AI through `ai.mongodb.com`, and OpenAI writes the explanations. See [../dare_MDB_plan.md](../dare_MDB_plan.md) for the design.
+A multi-tenant AI recommendation platform built on MongoDB Atlas. Retrieval uses Atlas Vector Search and Atlas Search together with `$rankFusion`. Embeddings and reranking come from Voyage AI through `ai.mongodb.com`, and OpenAI writes the explanations.
 
 ## Prerequisites
 - Python 3.12+ with [uv](https://docs.astral.sh/uv/)
